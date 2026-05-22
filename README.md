@@ -1,6 +1,6 @@
 # 🍅 Pomodoro Timer
 
-Un **Pomodoro Timer** con diseño estilo Android / Material Design, construido con HTML, CSS y JavaScript puro. Compatible con **GitHub Pages**.
+Un **Pomodoro Timer** con diseño estilo Material Design, construido con HTML, CSS y JavaScript.
 
 🔗 **Demo en vivo:** [https://aalexiscs.github.io/pomodoro-timer](https://aalexiscs.github.io/pomodoro-timer)
 
@@ -43,43 +43,6 @@ Un **Pomodoro Timer** con diseño estilo Android / Material Design, construido c
 
 ---
 
-## 🚀 Uso Local
-
-```bash
-# Clonar el repositorio
-git clone https://github.com/aalexiscs/pomodoro-timer.git
-
-# Abrir en el navegador
-cd pomodoro-timer
-# Abrir index.html directamente o usar un servidor local:
-npx serve .
-```
-
----
-
-## 🌐 Despliegue en GitHub Pages
-
-1. Ve a **Settings** → **Pages** en tu repositorio
-2. En **Source**, selecciona la rama `main` y carpeta `/ (root)`
-3. Haz clic en **Save**
-4. Tu app estará disponible en `https://aalexiscs.github.io/pomodoro-timer`
-
----
-
-## 📁 Estructura del Proyecto
-
-```
-pomodoro-timer/
-├── index.html        # Estructura HTML principal
-├── css/
-│   └── style.css     # Estilos Material Design
-├── js/
-│   └── app.js        # Lógica del timer y UI
-└── README.md
-```
-
----
-
 ## 🛠️ Stack Tecnológico
 
 - **HTML5** — Semántico y accesible (ARIA)
@@ -98,9 +61,3 @@ La técnica Pomodoro es un método de gestión del tiempo:
 2. ☕ Toma un **descanso corto de 5 minutos**
 3. Repite 4 veces
 4. 🌙 Toma un **descanso largo de 15 minutos**
-
----
-
-## 📄 Licencia
-
-MIT © [aalexiscs](https://github.com/aalexiscs)
