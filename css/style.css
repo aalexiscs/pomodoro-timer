@@ -104,27 +104,41 @@ body {
 }
 
 /* =============================================
-   APP BAR
+   THEME FAB (floating dark mode toggle)
    ============================================= */
-.app-bar {
-  background-color: var(--app-bar-bg);
-  color: #ffffff;
-  height: 56px;
+.theme-fab {
+  position: fixed;
+  bottom: 24px;
+  right: 24px;
+  width: 52px;
+  height: 52px;
+  border-radius: 50%;
+  border: none;
+  background-color: var(--md-sys-color-surface);
+  color: var(--timer-color);
+  cursor: pointer;
   display: flex;
   align-items: center;
-  justify-content: space-between;
-  padding: 0 16px;
-  box-shadow: var(--elevation-2);
-  position: sticky;
-  top: 0;
-  z-index: 100;
-  transition: background-color var(--transition-medium);
+  justify-content: center;
+  box-shadow: var(--elevation-fab);
+  z-index: 200;
+  transition:
+    background-color var(--transition-medium),
+    color var(--transition-medium),
+    transform var(--transition-fast),
+    box-shadow var(--transition-fast);
 }
 
-.app-bar__title {
-  font-size: 1.25rem;
-  font-weight: 500;
-  letter-spacing: 0.0125em;
+.theme-fab:hover {
+  transform: scale(1.1);
+  box-shadow: 0 8px 20px rgba(0,0,0,0.2), 0 3px 8px rgba(0,0,0,0.15);
+  background-color: var(--timer-color);
+  color: #ffffff;
+}
+
+.theme-fab:active {
+  transform: scale(0.94);
+  box-shadow: var(--elevation-1);
 }
 
 /* =============================================
