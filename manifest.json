@@ -1,0 +1,41 @@
+{
+  "name": "Pomodoro Timer",
+  "short_name": "Pomodoro",
+  "description": "Temporizador Pomodoro para mejorar tu productividad y enfoque.",
+  "start_url": "./",
+  "display": "standalone",
+  "orientation": "portrait-primary",
+  "background_color": "#c0392b",
+  "theme_color": "#c0392b",
+  "lang": "es",
+  "categories": ["productivity", "utilities"],
+  "icons": [
+    {
+      "src": "icons/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "icons/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "screenshots": [],
+  "shortcuts": [
+    {
+      "name": "Iniciar Pomodoro",
+      "short_name": "Pomodoro",
+      "description": "Inicia un temporizador Pomodoro de 25 minutos",
+      "url": "./?mode=pomodoro"
+    },
+    {
+      "name": "Descanso corto",
+      "short_name": "Descanso",
+      "description": "Inicia un descanso corto de 5 minutos",
+      "url": "./?mode=short"
+    }
+  ]
+}
